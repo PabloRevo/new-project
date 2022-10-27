@@ -41,3 +41,28 @@ print('\nОстаток долга ', total_summ)
 
 
 #заработало?
+
+#сумма ряда
+
+import math
+
+
+x = int(input('Введите x: '))
+precision = float(input('Введите точность: '))
+s = 1
+degree = 2
+s_temp = 1
+count = 2
+while s_temp > precision:
+  if count % 2 == 0:
+    s_temp = x ** degree / (math.factorial(degree))
+    s -= s_temp
+    count += 1
+    degree += 2
+  else:
+    s_temp = x ** degree / (math.factorial(degree))
+    s += s_temp
+    count += 1
+    degree += 2
+
+print('Сумма ряда: ', s)
