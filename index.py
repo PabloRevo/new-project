@@ -38,3 +38,6 @@ for years in range(total_years):
     total_summ -= A - total_summ * i
 
 print('\nОстаток долга ', total_summ)
+
+
+#заработало?
