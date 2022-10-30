@@ -39,7 +39,7 @@ for years in range(total_years):
 
 print('\nОстаток долга ', total_summ)
 
-print('Контакты')
+
 
 #new comment
 #new comment 2
