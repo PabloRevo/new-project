@@ -41,7 +41,4 @@ print('\nОстаток долга ', total_summ)
 
 
 
-#new comment
-#new comment 2
-#new comment 777
 
