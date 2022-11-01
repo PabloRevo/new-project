@@ -40,6 +40,6 @@ for years in range(total_years):
 print('\nОстаток долга ', total_summ)
 
 print('тест 1')
-
+print('перенос между ветками')
 
 
